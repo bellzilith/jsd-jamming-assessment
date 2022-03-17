@@ -1,7 +1,7 @@
 // TODO: Get Client ID from https://developer.spotify.com/dashboard/ and put it here
-const clientId = 'YOUR SPOTIFY CLIENT ID';
+const clientId = 'b65c967fe06842a8bba889fb65fab923';
 
-const redirectUri = 'http://localhost:3000/';
+const redirectUri = 'https://belljamming.netlify.app/';
 const spotifyUrl = `https://accounts.spotify.com/authorize?response_type=token&scope=playlist-modify-public&client_id=${clientId}&redirect_uri=${redirectUri}`;
 let accessToken = undefined;
 let expiresIn = undefined;
